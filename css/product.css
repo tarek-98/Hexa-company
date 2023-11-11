@@ -1,0 +1,37 @@
+:root
+{
+    --dark-color:#aaa;
+    --b--color:#eee;
+    --section-color:#2c2c2c;
+    --main-transition: 0.4s;
+}
+
+.land-product .box
+{
+  background-image: url(../img/products-page-heading.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+.land-product .box .text
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.product .box .image img
+{
+  width: 100%;
+}
+.product .box .info 
+{
+  justify-content: space-between;
+}

@@ -1,0 +1,49 @@
+:root
+{
+    --dark-color:#aaa;
+    --b--color:#eee;
+    --section-color:#2c2c2c;
+    --main-transition: 0.4s;
+}
+
+.land-contact .box
+{
+  background-image: url(../img/about-us-page-heading.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+.land-contact .box .text
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+/*contact*/
+.contact .box .form input
+{
+  outline: none;
+  width: 45%;
+  margin-bottom: 20px;
+}
+.contact .box .form textarea
+{
+  width: 90%;
+  display: block;
+  margin-bottom: 20px;
+  outline: none;
+  resize: none;
+}
+.contact .box .form a
+{
+  background-color: var(--section-color);
+  color: white;
+  padding: 14px;
+}
